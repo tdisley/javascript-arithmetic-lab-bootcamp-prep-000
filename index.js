@@ -28,6 +28,6 @@ function makeInt(n,10) {
   return parseInt(n);
 }
 
-function preserveDecimal(n) {
+function preserveDecimal(n,10) {
   return parseFloat(n);
 }
